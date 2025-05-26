@@ -15,12 +15,12 @@
 - Role-based UI with global state management via Provider and Agile dev cycle  
 → *[Demo & Source](https://github.com/your-username/lastcrumb-app)*
 
-### 🖼️ [LicenChain](https://github.com/your-username/licenchain-demo) — Blockchain IP Licensing Platform  
+### 🖼️ [LicenChain](https://github.com/Sophie-l-l/LicenChain/blob/main/README.md) — Blockchain IP Licensing Platform  
 **Solidity + Web3 + React | Digital Rights Infrastructure for Creators**  
 - Built and pitched a creator-first MVP that enables digital artists to register, license, and monetize their work on-chain  
 - Implemented a functioning smart contract backend and a web frontend demo with NFT-based proof of ownership and licensing terms  
 - Designed the business model and investor deck; led the technical development and demo rollout  
-→ *[Live Demo](https://your-username.github.io/licenchain-demo)* | *[Source Code](https://github.com/your-username/licenchain-demo)*
+→ *[Live Demo](https://www.youtube.com/watch?v=SfKDjerUZ3E)* | *[Source Code](https://github.com/Sophie-l-l/LicenChain/blob/main/LicenChain%20(2).sol)*
 
 ### 📊 [Jane Street Market Prediction (Top 4%)](https://github.com/your-username/jane-street-predictor)  
 **Kaggle ML | PyTorch Lightning + XGBoost + Polars**  
