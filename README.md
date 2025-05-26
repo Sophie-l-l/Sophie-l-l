@@ -28,17 +28,21 @@
 - Integrated GPU batching and .parquet stream evaluation  
 → *[Notebook & Results](https://github.com/your-username/jane-street-predictor)*
 
-### 📖 [MyRecipe](https://github.com/your-username/myrecipe-app) — Full-Stack Recipe & Culture App  
+### 📖 [MyRecipe](hhttps://github.com/Sophie-l-l/AIT_MyRecipeTree/blob/main/README.md) — Full-Stack Recipe & Culture App  
 **React (Vite) + Express + MongoDB | Passport.js Auth**  
 - Users can register/login, upload & edit recipes by region, and interact via likes/comments  
 - Features advanced navbar filtering, responsive design, and search by name/ingredient/location  
-→ *[Live Site](https://myrecipe.example.com)* | *[Source Code](https://github.com/your-username/myrecipe-app)*
+→ *Live Site* | *[Source Code](https://github.com/Sophie-l-l/AIT_MyRecipeTree/tree/main/MyRecipeTree)*
 
-### 💼 [Personal Portfolio Website](https://github.com/your-username/portfolio)  
-**HTML/CSS + JavaScript | Designed & Deployed**  
-- Showcases projects, resume, contact info, and interactive sections  
-- Built to be lightweight, accessible, and mobile-responsive  
-→ *[Live Site](https://yourname.dev)* | *[Source Code](https://github.com/your-username/portfolio)*
+### 🌲 [myForest](https://github.com/Sophie-l-l/myForest) — 3D Parallax Web Experience & Interactive Showcase  
+**HTML/CSS + JavaScript + Web Audio + UI/UX Design**  
+- Designed and developed a visually rich, parallax-scrolling web experience simulating a 3D forest journey  
+- Acts as a gateway to four multimedia-rich websites, each exploring a unique dimension of storytelling:
+  - 🎬 **30MFF Web Site** – A visual-narrative dive into NYUAD student life  
+  - 🚀 **Comix Strip** – Interactive space odyssey with user-controlled progression  
+  - 🔊 **Sounds Like** – Audio-driven mystery experience with embedded detective logic  
+  - 💬 **VID-E-OH!!!** – Mental health storytelling platform using expressive design and video  
+→ *[Source Code](https://github.com/Sophie-l-l/myForest)*
 
 ---
 
