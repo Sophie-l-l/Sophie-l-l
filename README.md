@@ -58,6 +58,6 @@
 ## 🔍 Let's Connect
 
 📫 Email: al7855@nyu.edu  
-🌐 [LinkedIn](https://linkedin.com/in/your-link)  
-🌍 [Personal Website](https://yourname.dev)  
-📁 [Resume (PDF)](https://github.com/your-username/your-resume.pdf)
+🌐 [LinkedIn](https://www.linkedin.com/in/sophie-lin-859725262/)  
+🌍 [Personal Website](https://sophie-l-l.github.io/)
+
