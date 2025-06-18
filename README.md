@@ -22,11 +22,11 @@
 - Designed the business model and investor deck; led the technical development and demo rollout  
 → *[Live Demo](https://www.youtube.com/watch?v=SfKDjerUZ3E)* | *[Source Code](https://github.com/Sophie-l-l/LicenChain/blob/main/LicenChain%20(2).sol)*
 
-### 📊 [Jane Street Market Prediction (Top 4%)](https://github.com/your-username/jane-street-predictor)  
+### 📊 Jane Street Market Prediction (Top 4%)(Private Repo)  
 **Kaggle ML | PyTorch Lightning + XGBoost + Polars**  
 - Built custom R² loss and ensemble ML pipeline; improved inference speed by 60%  
 - Integrated GPU batching and .parquet stream evaluation  
-→ *[Notebook & Results](https://github.com/your-username/jane-street-predictor)*
+→ *Notebook & Results*
 
 ### 📖 [MyRecipe](hhttps://github.com/Sophie-l-l/AIT_MyRecipeTree/blob/main/README.md) — Full-Stack Recipe & Culture App  
 **React (Vite) + Express + MongoDB | Passport.js Auth**  
