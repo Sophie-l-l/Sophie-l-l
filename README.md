@@ -13,7 +13,7 @@
 - Architected a client-server system with real-time blindbox food booking and vendor/consumer dashboards  
 - Integrated secure login, payment locking, and a review system with 91% backend test coverage  
 - Role-based UI with global state management via Provider and Agile dev cycle  
-→ *[Demo & Source](https://github.com/your-username/lastcrumb-app)*
+→ *[Demo]([https://github.com/your-username/lastcrumb-app](https://youtube.com/shorts/iW0eZC4wn1M))*
 
 ### 🖼️ [LicenChain](https://github.com/Sophie-l-l/LicenChain/blob/main/README.md) — Blockchain IP Licensing Platform  
 **Solidity + Web3 + React | Digital Rights Infrastructure for Creators**  
