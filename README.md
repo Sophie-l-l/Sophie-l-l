@@ -1,7 +1,8 @@
-# Hi, I'm Sophie Lin (Ao Lin)
+# Sophie Lin (Ao Lin)
 
 **BS Computer Science @ NYU Abu Dhabi** | Minor in Applied Math & Economics | GPA: 3.85
-Open to Software Engineering, AI/ML, and Product roles globally
+
+I build production systems that work — from multi-service cloud deployments to ML pipelines on HPC clusters. Currently focused on full-stack engineering, applied ML, and adaptive learning systems.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-sophie--l--l.github.io-00d4ff?style=flat-square)](https://sophie-l-l.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sophie%20Lin-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sophie-lin-859725262/)
@@ -9,99 +10,113 @@ Open to Software Engineering, AI/ML, and Product roles globally
 
 ---
 
-## Technical Skills
+## Production Software
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | TypeScript, JavaScript, Python, Dart, Solidity, SQL, HTML/CSS |
-| **Frontend** | React, Next.js, Flutter, Vite, Tailwind CSS, Framer Motion |
-| **Backend** | Node.js, Express, Flask, FastAPI |
-| **AI/ML** | PyTorch, XGBoost, LangChain, Google Gemini, OpenAI GPT-4, scikit-learn |
-| **Databases** | PostgreSQL, MongoDB, SQLite, Prisma ORM, Knex |
-| **Cloud/DevOps** | Google Cloud (Run, SQL, Build), Vercel, Docker, GitHub Actions, SLURM/HPC |
-| **Architecture** | Circuit Breaker, Rate Limiting, Observability (Winston/Prometheus), JWT/RBAC |
-| **Mobile** | Flutter/Dart, Riverpod, GoRouter, Dio, Socket.io |
+### [EduCode](https://github.com/Sophie-l-l/capstone) — Adaptive Learning Platform for Programming Education
+A three-service platform (Next.js frontend, Express API, FastAPI AI service) that classifies student coding errors using an academic framework (IEEE 1044-2009) and tracks skill mastery through Bayesian Knowledge Tracing.
+
+- 60+ rule-based error patterns with Gemini LLM fallback and 768-dim embedding deduplication
+- Real-time instructor analytics: at-risk detection, error clustering, KC mastery heatmaps
+- Deployed on Google Cloud Run + Vercel with PostgreSQL (Cloud SQL)
+
+Tech: Next.js 16, React 19, Express, FastAPI, Prisma, PostgreSQL, Google Gemini, Docker
+Best for: **Full-Stack SWE, EdTech, AI/ML Engineering**
+
+> [Live Demo](https://educode-adaptive-platform.vercel.app) | [Source Code](https://github.com/Sophie-l-l/capstone)
 
 ---
 
-## Featured Projects
+### [WorldBite](https://github.com/Sophie-l-l/WorldBite) — E-Commerce Platform with Enterprise Patterns
+Production backend with circuit breaker, retry + exponential backoff, multi-tier rate limiting, and structured observability.
 
-### [EduCode](https://github.com/Sophie-l-l/capstone) — AI-Powered Adaptive Learning Platform
-**Next.js 15 + React 19 + Express + FastAPI + PostgreSQL + Google Gemini 2.0**
-- Built end-to-end: frontend (40+ shadcn/ui components), backend (Express + Prisma), AI microservice (FastAPI + Gemini)
-- Error classification pipeline: 60+ rule-based patterns (92% accuracy) + LLM fallback, with 768-dim embedding deduplication
-- Bayesian Knowledge Tracing engine tracking mastery across 10+ programming concepts in real time
-- Instructor dashboard with at-risk student detection, error clustering, and KC heatmaps
-- Deployed on Google Cloud Run + Vercel; 3 microservices in production
-
-> *[Live Demo](https://educode-adaptive-platform.vercel.app)* | *[Source Code](https://github.com/Sophie-l-l/capstone)*
-
-### [WorldBite](https://github.com/Sophie-l-l/WorldBite) — E-Commerce Platform with Enterprise Architecture
-**Node.js + TypeScript + Express + SQLite/PostgreSQL + Docker**
-- Implemented circuit breaker, retry with exponential backoff + jitter, and transaction rollback patterns
-- Multi-tier rate limiting (5-50 req/min by endpoint risk), structured logging with request correlation IDs
-- Prometheus-compatible metrics collection, real-time health dashboards, admin log viewer
-- Full e-commerce: 21 products, shopping cart, checkout, returns/refunds, partner CSV uploads, RBAC
+- Prometheus-compatible metrics, Winston logging with correlation IDs, real-time health dashboards
+- Full commerce flow: cart, checkout, returns/refunds, partner CSV catalog ingestion, RBAC
 - Docker multi-stage build (~150MB), Vitest + Supertest test suites
 
-> *[Documentation & Architecture](https://github.com/Sophie-l-l/WorldBite)*
-
-### [FreshtiqChef](https://github.com/Sophie-l-l/FreshtiqChef) — Mobile Food Quality Inspection App
-**Flutter/Dart + Riverpod + Dio + Socket.io + Freezed**
-- Tinder-style swipe interface with optimistic UI updates and automatic rollback on failure
-- Dio interceptor chain: JWT injection, 401 auto-recovery, request logging, mock development mode
-- Atomic batch claiming to prevent race conditions in multi-inspector environments
-- Real-time notifications via Socket.io, history export to Excel with date filtering
-- 12,500+ lines of clean Dart across 69 files with comprehensive technical documentation
-
-> *[Documentation & Architecture](https://github.com/Sophie-l-l/FreshtiqChef)*
-
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection
-**React 18 + TypeScript + Vite + Tailwind + Framer Motion | Deployed at myometric.com**
-- Led product design and technical development for AI-powered MRI analysis targeting Duchenne Muscular Dystrophy
-- Conducted 34 expert interviews with physicians from NYU Radiology, Pediatric Neurology, and Akron Children's Hospital
-- Designed clinical workflow: 4-hour turnaround vs. 7-14 days traditional diagnosis
-- Secured early-stage support from NYU Entrepreneurial Institute
-
-> *[Live Site](https://myometric.com)* | *[Source Code](https://github.com/Sophie-l-l/myomagic)*
-
-### Jane Street Market Prediction — Kaggle ML Competition *(Top 4%, Private Repo)*
-**PyTorch Lightning + XGBoost + Polars | GPU-optimized Inference**
-- Built 5-fold DNN ensemble + gradient boosting pipeline with custom R-squared loss function
-- Achieved +8.6% R-squared improvement and 60% inference speed increase through GPU batching
-- Processed large-scale financial data via .parquet streaming with WRMSE < 0.032
-
-### [NomNom](https://github.com/Sophie-l-l/nomnom) — AI Therapy Chatbot
-**React + Express + LangChain + GPT-4o-mini + MongoDB + Clerk Auth**
-- LangChain ConversationChain with BufferMemory for context-aware therapeutic dialogue
-- Custom system prompt for compassionate, non-judgmental interactions with user authentication
-
-> *[Demo Video](https://youtu.be/ppIAHSyNp_8)* | *[Source Code](https://github.com/Sophie-l-l/nomnom)*
+Tech: Node.js, TypeScript, Express, SQLite/PostgreSQL, Docker
+Best for: **Backend SWE, Platform Engineering, Infrastructure**
 
 ---
 
-## Research
+### [FreshtiqChef](https://github.com/Sophie-l-l/FreshtiqChef) — Mobile Food Inspection App
+Tinder-style swipe UI with optimistic updates, real-time Socket.io notifications, and atomic batch claiming to prevent race conditions across inspectors.
 
-### InternNav — Vision-Language Navigation for Blind Users *(Ongoing, 2026)*
-**NYU Abu Dhabi | VGGT + Depth Anything V2 + Qwen2.5-VL | HPC (A100/V100)**
-- Fine-tuning InternNav with Cross Companion dataset for blind navigation in urban environments
-- Building data pipeline processing 219 walking videos through VGGT (camera pose), DAv2 (metric depth), and Qwen2.5-VL (navigation instructions)
+- Dio interceptor chain: JWT injection, 401 auto-recovery, request logging
+- 12,500+ lines of Dart across 69 files
+
+Tech: Flutter/Dart, Riverpod, Dio, Socket.io, Freezed
+Best for: **Mobile Engineering, Consumer Apps**
+
+---
+
+## Machine Learning & Data
+
+### [Jane Street Market Prediction](https://github.com/Sophie-l-l/jane-street-market-prediction) — Kaggle Silver Medal, Top 4%
+Ensemble of LightGBM, XGBoost, CatBoost, and a custom PyTorch Lightning neural network for real-time financial prediction on 47M+ samples.
+
+- 5-fold DNN ensemble with custom R-squared loss and confidence calibration
+- Feature engineering: lagged signals, smoothed aggregations across 79 base features
+- Final score: 0.0081 | Rank: 109/3,412 teams
+
+Tech: PyTorch Lightning, XGBoost, LightGBM, CatBoost, Polars, NumPy
+Best for: **ML Engineering, Quantitative Finance, Data Science**
+
+> [Repository](https://github.com/Sophie-l-l/jane-street-market-prediction)
+
+---
+
+### [ML Algorithms from Scratch](https://github.com/Sophie-l-l/ML-from-scratch) — Applied Machine Learning Coursework
+Implementations of core ML algorithms using only NumPy — no sklearn model calls.
+
+- Linear & Logistic Regression, Decision Trees, SVMs, K-Means Clustering, Neural Networks
+- Complete training loops, gradient descent variants, cross-validation from scratch
+
+Tech: Python, NumPy, Matplotlib
+Best for: **ML Engineering, Research**
+
+---
+
+## AI & Research
+
+### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection
+Led product design for AI-powered MRI analysis targeting Duchenne Muscular Dystrophy. Conducted 34 expert interviews (NYU Radiology, Akron Children's Hospital). Deployed at [myometric.com](https://myometric.com).
+
+Best for: **Product, HealthTech, AI**
+
+### InternNav — Vision-Language Navigation for Blind Users *(Ongoing)*
+Fine-tuning vision-language models (VGGT + Depth Anything V2 + Qwen2.5-VL) on 219 walking videos for urban blind navigation. NYU Abu Dhabi, HPC (A100/V100).
+
+Best for: **AI/ML Research, Computer Vision**
+
+### [NomNom](https://github.com/Sophie-l-l/nomnom) — AI Therapy Chatbot
+LangChain + GPT-4o-mini with BufferMemory for context-aware therapeutic dialogue.
+
+> [Demo Video](https://youtu.be/ppIAHSyNp_8) | [Source Code](https://github.com/Sophie-l-l/nomnom)
 
 ---
 
 ## Professional Experience
 
-| Role | Organization | Period |
-|------|-------------|--------|
-| **Tech & Innovation Team** | China-Gulf Forum (Abu Dhabi) | Jan 2025 - Present |
-| **IT Intern** | Viva La Munich (Remote) | Jan - May 2024 |
+**China-Gulf Forum** — Tech & Innovation Team (Jan 2025 - Present)
+Built the [official forum website](https://github.com/Sophie-l-l/china-gulf-forum); organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII.
 
-- **China-Gulf Forum**: Built official forum website; organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII
-- **Viva La Munich**: Developed user-tailored event database systems and architecture
+**Viva La Munich** — IT Intern (Jan - May 2024)
+Developed user-tailored event database systems and architecture.
 
 ---
 
-## Education
+## Technical Skills
 
-**New York University Abu Dhabi** — BS Computer Science
-Minor: Applied Mathematics & Economics | GPA: 3.85 | Sep 2022 - May 2026
+| | |
+|---|---|
+| **Languages** | TypeScript, JavaScript, Python, Dart, SQL, HTML/CSS |
+| **Frontend** | React, Next.js, Flutter, Tailwind CSS, Framer Motion |
+| **Backend** | Node.js, Express, Flask, FastAPI, Prisma, Knex |
+| **AI/ML** | PyTorch, XGBoost, LightGBM, LangChain, Google Gemini, scikit-learn |
+| **Databases** | PostgreSQL, MongoDB, SQLite |
+| **Cloud** | Google Cloud (Run, SQL, Build), Vercel, Docker, GitHub Actions, SLURM/HPC |
+| **Patterns** | Circuit Breaker, Rate Limiting, Observability, JWT/RBAC, BKT |
+
+---
+
+**New York University Abu Dhabi** — BS Computer Science | Minor: Applied Mathematics & Economics | GPA: 3.85 | May 2026
