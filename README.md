@@ -13,72 +13,70 @@ Open to Software Engineering, AI/ML, and Product roles globally
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | TypeScript, JavaScript, Python, Solidity, Dart, SQL, HTML/CSS |
+| **Languages** | TypeScript, JavaScript, Python, Dart, Solidity, SQL, HTML/CSS |
 | **Frontend** | React, Next.js, Flutter, Vite, Tailwind CSS, Framer Motion |
 | **Backend** | Node.js, Express, Flask, FastAPI |
 | **AI/ML** | PyTorch, XGBoost, LangChain, Google Gemini, OpenAI GPT-4, scikit-learn |
-| **Databases** | PostgreSQL, MongoDB, Prisma ORM |
-| **Blockchain** | Solidity, ERC-721, OpenZeppelin, Ethereum |
-| **Cloud/DevOps** | Google Cloud (Run, SQL), Vercel, GitHub Pages/Actions, SLURM/HPC |
-| **Computer Vision** | VGGT, Depth Anything V2, Qwen2.5-VL |
+| **Databases** | PostgreSQL, MongoDB, SQLite, Prisma ORM, Knex |
+| **Cloud/DevOps** | Google Cloud (Run, SQL, Build), Vercel, Docker, GitHub Actions, SLURM/HPC |
+| **Architecture** | Circuit Breaker, Rate Limiting, Observability (Winston/Prometheus), JWT/RBAC |
+| **Mobile** | Flutter/Dart, Riverpod, GoRouter, Dio, Socket.io |
 
 ---
 
 ## Featured Projects
 
-### [EduCode](https://github.com/Sophie-l-l/capstone) — AI-Powered Adaptive Learning Platform *(Capstone)*
-**Next.js + React 19 + FastAPI + PostgreSQL + Google Gemini | 21,500 LOC | 3 Microservices**
-- **First platform to integrate** IEEE 1044 + Zehetmeier + Bloom's Taxonomy + Bayesian Knowledge Tracing for personalized CS education
-- 60+ rule-based error classification patterns (92% accuracy) with LLM fallback for complex errors
-- Real-time mastery tracking across 10+ programming concepts using Bayesian Knowledge Tracing
-- 78% error deduplication via 768-dimensional embeddings; role-based dashboards for students and instructors
-- Deployed on Google Cloud Run + Vercel with full CI/CD pipeline
+### [EduCode](https://github.com/Sophie-l-l/capstone) — AI-Powered Adaptive Learning Platform
+**Next.js 15 + React 19 + Express + FastAPI + PostgreSQL + Google Gemini 2.0**
+- Built end-to-end: frontend (40+ shadcn/ui components), backend (Express + Prisma), AI microservice (FastAPI + Gemini)
+- Error classification pipeline: 60+ rule-based patterns (92% accuracy) + LLM fallback, with 768-dim embedding deduplication
+- Bayesian Knowledge Tracing engine tracking mastery across 10+ programming concepts in real time
+- Instructor dashboard with at-risk student detection, error clustering, and KC heatmaps
+- Deployed on Google Cloud Run + Vercel; 3 microservices in production
 
 > *[Live Demo](https://educode-adaptive-platform.vercel.app)* | *[Source Code](https://github.com/Sophie-l-l/capstone)*
 
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection *(NYU Startup Sprint '25)*
+### [WorldBite](https://github.com/Sophie-l-l/WorldBite) — E-Commerce Platform with Enterprise Architecture
+**Node.js + TypeScript + Express + SQLite/PostgreSQL + Docker**
+- Implemented circuit breaker, retry with exponential backoff + jitter, and transaction rollback patterns
+- Multi-tier rate limiting (5-50 req/min by endpoint risk), structured logging with request correlation IDs
+- Prometheus-compatible metrics collection, real-time health dashboards, admin log viewer
+- Full e-commerce: 21 products, shopping cart, checkout, returns/refunds, partner CSV uploads, RBAC
+- Docker multi-stage build (~150MB), Vitest + Supertest test suites
+
+> *[Documentation & Architecture](https://github.com/Sophie-l-l/WorldBite)*
+
+### [FreshtiqChef](https://github.com/Sophie-l-l/FreshtiqChef) — Mobile Food Quality Inspection App
+**Flutter/Dart + Riverpod + Dio + Socket.io + Freezed**
+- Tinder-style swipe interface with optimistic UI updates and automatic rollback on failure
+- Dio interceptor chain: JWT injection, 401 auto-recovery, request logging, mock development mode
+- Atomic batch claiming to prevent race conditions in multi-inspector environments
+- Real-time notifications via Socket.io, history export to Excel with date filtering
+- 12,500+ lines of clean Dart across 69 files with comprehensive technical documentation
+
+> *[Documentation & Architecture](https://github.com/Sophie-l-l/FreshtiqChef)*
+
+### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection
 **React 18 + TypeScript + Vite + Tailwind + Framer Motion | Deployed at myometric.com**
 - Led product design and technical development for AI-powered MRI analysis targeting Duchenne Muscular Dystrophy
-- Conducted **34 expert interviews** with physicians from NYU Radiology, Pediatric Neurology, and Akron Children's Hospital
-- Designed clinical workflow: **4-hour turnaround** vs. 7–14 days traditional diagnosis
-- Secured early-stage support from NYU Entrepreneurial Institute; DMD market: $2.3B → $5.2B by 2033
+- Conducted 34 expert interviews with physicians from NYU Radiology, Pediatric Neurology, and Akron Children's Hospital
+- Designed clinical workflow: 4-hour turnaround vs. 7-14 days traditional diagnosis
+- Secured early-stage support from NYU Entrepreneurial Institute
 
 > *[Live Site](https://myometric.com)* | *[Source Code](https://github.com/Sophie-l-l/myomagic)*
 
-### Jane Street Market Prediction — Kaggle ML Competition *(Top 4%)* *(Private Repo)*
+### Jane Street Market Prediction — Kaggle ML Competition *(Top 4%, Private Repo)*
 **PyTorch Lightning + XGBoost + Polars | GPU-optimized Inference**
 - Built 5-fold DNN ensemble + gradient boosting pipeline with custom R-squared loss function
 - Achieved +8.6% R-squared improvement and 60% inference speed increase through GPU batching
 - Processed large-scale financial data via .parquet streaming with WRMSE < 0.032
 
-### LastCrumb — Mobile Food Sustainability Platform *(Private Repo)*
-**Flutter + Flask + MongoDB | Stripe + Google Maps API | Team of 4**
-- Architected client-server system with real-time blindbox food booking and vendor/consumer dashboards
-- 91% backend test coverage with secure login, payment locking, and review system
-- Role-based UI with global state management via Provider; >90% roadmap delivery using Agile
-
-> *[Demo Video](https://youtube.com/shorts/iW0eZC4wn1M)*
-
-### [LicenChain](https://github.com/Sophie-l-l/LicenChain) — Blockchain IP Licensing Platform
-**Solidity (ERC-721) + React 19 + Vite + Tailwind | Smart Contract + Web Frontend**
-- Built NFT-based IP registration and licensing with automated revenue sharing (95% creator, 5% platform)
-- Designed business model (3 pricing tiers) and investor pitch deck; led full-stack development as sole developer
-
-> *[Demo Video](https://www.youtube.com/watch?v=SfKDjerUZ3E)* | *[Source Code](https://github.com/Sophie-l-l/LicenChain)*
-
 ### [NomNom](https://github.com/Sophie-l-l/nomnom) — AI Therapy Chatbot
-**React + Express + LangChain + GPT-4o-mini + MongoDB + Clerk Auth | Team of 4**
-- Integrated LangChain ConversationChain with BufferMemory for context-aware therapeutic dialogue
+**React + Express + LangChain + GPT-4o-mini + MongoDB + Clerk Auth**
+- LangChain ConversationChain with BufferMemory for context-aware therapeutic dialogue
 - Custom system prompt for compassionate, non-judgmental interactions with user authentication
 
 > *[Demo Video](https://youtu.be/ppIAHSyNp_8)* | *[Source Code](https://github.com/Sophie-l-l/nomnom)*
-
-### [myForest](https://github.com/Sophie-l-l/myForest) — 3D Parallax Web Experience
-**Vanilla HTML/CSS/JavaScript | Parallax.js | No Frameworks**
-- Multi-layered parallax scrolling through 3 seasons with 14 procedurally generated firefly animations
-- Interactive SVG path drawing and gateway to 4 multimedia sub-projects
-
-> *[Live Demo](https://sophie-l-l.github.io/myForest/)* | *[Source Code](https://github.com/Sophie-l-l/myForest)*
 
 ---
 
@@ -95,8 +93,8 @@ Open to Software Engineering, AI/ML, and Product roles globally
 
 | Role | Organization | Period |
 |------|-------------|--------|
-| **Tech & Innovation Team** | China-Gulf Forum (Abu Dhabi) | Jan 2025 – Present |
-| **IT Intern** | Viva La Munich (Remote) | Jan – May 2024 |
+| **Tech & Innovation Team** | China-Gulf Forum (Abu Dhabi) | Jan 2025 - Present |
+| **IT Intern** | Viva La Munich (Remote) | Jan - May 2024 |
 
 - **China-Gulf Forum**: Built official forum website; organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII
 - **Viva La Munich**: Developed user-tailored event database systems and architecture
@@ -106,4 +104,4 @@ Open to Software Engineering, AI/ML, and Product roles globally
 ## Education
 
 **New York University Abu Dhabi** — BS Computer Science
-Minor: Applied Mathematics & Economics | GPA: 3.85 | Sep 2022 – May 2026
+Minor: Applied Mathematics & Economics | GPA: 3.85 | Sep 2022 - May 2026
