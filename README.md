@@ -80,8 +80,8 @@ Best for: **ML Engineering, Research**
 
 ## AI & Research
 
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product Manager) | [mMEDCON](https://www.mmedcon.com)
-Product Manager for MyoMetricsMRI (M³), part of the mMEDCON project — an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Led the application and market research that got us into the **NYU 2025 Summer Startup Sprint** (1 of 17 teams selected).
+### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product & Engineering Lead) | [mMEDCON](https://www.mmedcon.com)
+Product & Engineering Lead for MyoMetricsMRI (M³), part of the mMEDCON nonprofit — an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Led the application and market research that got us into the **NYU 2025 Summer Startup Sprint** (1 of 17 teams selected).
 
 - Led market research, competitive analysis, and prepared the accelerator application
 - Conducted 34 customer discovery interviews with physicians from NYU Langone Radiology and Akron Children's Hospital
@@ -105,13 +105,19 @@ LangChain + GPT-4o-mini with BufferMemory for context-aware therapeutic dialogue
 
 ## Professional Experience
 
-**MyoMetricsMRI (mMEDCON)** — Product Manager (May – Sep 2025)
+**Freshtiq** — Software Engineer Intern (Sep – Dec 2025)
+Built cross-platform Flutter app for food quality inspection with Tinder-style swipe interface, Socket.io notifications, and atomic batch claiming. 12,500+ lines of Dart across 69 files.
+
+**NYU Tandon Wireless Lab** — Summer Research Assistant (Jun – Aug 2025)
+Collected, cleaned, and standardized large-scale wireless bandwidth time-series data. Built and compared LSTM, Transformer, and Offline RL models for bandwidth prediction. Designed interactive model performance monitoring dashboards.
+
+**mMEDCON** — Product & Engineering Lead (May – Oct 2025)
 Led market research and accelerator application that got the team into [NYU Summer Startup Sprint 2025](https://entrepreneur.nyu.edu/resource/startup-sprint-student/) (1 of 17 teams). Conducted 34 customer discovery interviews, defined product roadmap, and built investor pitch decks for AI-powered DMD diagnostics.
 
-**China-Gulf Forum** — Tech & Innovation Team (Jan 2025 - Present)
+**China-Gulf Forum** — Tech & Innovation Team (Jan – May 2025)
 Built the [official forum website](https://github.com/Sophie-l-l/china-gulf-forum); organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII.
 
-**Viva La Munich** — IT Intern (Jan - May 2024)
+**Viva La Munich** — IT Intern (Jan – May 2024)
 Developed user-tailored event database systems and architecture.
 
 ---
