@@ -19,7 +19,7 @@ A three-service platform (Next.js frontend, Express API, FastAPI AI service) tha
 - Real-time instructor analytics: at-risk detection, error clustering, KC mastery heatmaps
 - Deployed on Google Cloud Run + Vercel with PostgreSQL (Cloud SQL)
 
-Tech: Next.js 16, React 19, Express, FastAPI, Prisma, PostgreSQL, Google Gemini, Docker
+Tech: Next.js 16, React 19, Express, FastAPI, Prisma, PostgreSQL, Google Gemini, Docker\
 Best for: **Full-Stack SWE, EdTech, AI/ML Engineering**
 
 > [Live Demo](https://educode-adaptive-platform.vercel.app) | [Source Code](https://github.com/Sophie-l-l/capstone)
@@ -33,7 +33,7 @@ Production backend with circuit breaker, retry + exponential backoff, multi-tier
 - Full commerce flow: cart, checkout, returns/refunds, partner CSV catalog ingestion, RBAC
 - Docker multi-stage build (~150MB), Vitest + Supertest test suites
 
-Tech: Node.js, TypeScript, Express, SQLite/PostgreSQL, Docker
+Tech: Node.js, TypeScript, Express, SQLite/PostgreSQL, Docker\
 Best for: **Backend SWE, Platform Engineering, Infrastructure**
 
 ---
@@ -46,7 +46,7 @@ Cross-platform Flutter app for food quality inspectors with a Tinder-style swipe
 - Optimistic UI updates with automatic rollback, multi-step OTP auth, Excel export with date filtering
 - 12,500+ lines of Dart across 69 files, compiled release APK shipped
 
-Tech: Flutter/Dart, Riverpod, Dio, Socket.io, GoRouter, Freezed, Material Design 3
+Tech: Flutter/Dart, Riverpod, Dio, Socket.io, GoRouter, Freezed, Material Design 3\
 Best for: **Mobile Engineering, Consumer Apps, Startup**
 
 ---
@@ -60,7 +60,7 @@ Ensemble of LightGBM, XGBoost, CatBoost, and a custom PyTorch Lightning neural n
 - Feature engineering: lagged signals, smoothed aggregations across 79 base features
 - Final score: 0.0081 | Rank: 109/3,412 teams
 
-Tech: PyTorch Lightning, XGBoost, LightGBM, CatBoost, Polars, NumPy
+Tech: PyTorch Lightning, XGBoost, LightGBM, CatBoost, Polars, NumPy\
 Best for: **ML Engineering, Quantitative Finance, Data Science**
 
 > [Repository](https://github.com/Sophie-l-l/jane-street-market-prediction)
@@ -73,21 +73,22 @@ Implementations of core ML algorithms using only NumPy — no sklearn model call
 - Linear & Logistic Regression, Decision Trees, SVMs, K-Means Clustering, Neural Networks
 - Complete training loops, gradient descent variants, cross-validation from scratch
 
-Tech: Python, NumPy, Matplotlib
+Tech: Python, NumPy, Matplotlib\
 Best for: **ML Engineering, Research**
 
 ---
 
 ## AI & Research
 
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product Manager)
-Product Manager for an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Selected for the **NYU 2025 Summer Startup Sprint** ($1,500 grant + $25K cloud credits) through the NYU Entrepreneurial Institute.
+### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product Manager) | [mMEDCON](https://www.mmedcon.com)
+Product Manager for MyoMetricsMRI (M³), part of the mMEDCON project — an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Led the application and market research that got us into the **NYU 2025 Summer Startup Sprint** (1 of 17 teams selected).
 
-- Led product design, user research, and go-to-market strategy
-- Conducted 34 expert interviews with physicians from NYU Radiology and Akron Children's Hospital
-- Platform uses transformer-based neural networks for 4-hour MRI analysis turnaround (vs. 7-14 days traditional)
+- Led market research, competitive analysis, and prepared the accelerator application
+- Conducted 34 customer discovery interviews with physicians from NYU Langone Radiology and Akron Children's Hospital
+- Defined product roadmap, go-to-market strategy, and built investor pitch decks
+- Co-founder later selected for **NYU Female Founders Fellowship** (Fall 2025, 1 of 9 fellows)
 
-Tech: React, TypeScript, Vite, Tailwind CSS
+Tech: React, TypeScript, Vite, Tailwind CSS\
 Best for: **Product Management, HealthTech, AI, Startup**
 
 ### Vision-Language Navigation for Blind Users — Research Assistant *(Ongoing)*
@@ -104,8 +105,8 @@ LangChain + GPT-4o-mini with BufferMemory for context-aware therapeutic dialogue
 
 ## Professional Experience
 
-**MyoMetricsMRI** — Product Manager (May 2025 - Present)
-PM for AI-powered MRI diagnostic startup via [NYU Summer Startup Sprint 2025](https://entrepreneur.nyu.edu/resource/startup-sprint-student/). Led user research (34 physician interviews), product design, and go-to-market planning for DMD early detection platform.
+**MyoMetricsMRI (mMEDCON)** — Product Manager (May – Sep 2025)
+Led market research and accelerator application that got the team into [NYU Summer Startup Sprint 2025](https://entrepreneur.nyu.edu/resource/startup-sprint-student/) (1 of 17 teams). Conducted 34 customer discovery interviews, defined product roadmap, and built investor pitch decks for AI-powered DMD diagnostics.
 
 **China-Gulf Forum** — Tech & Innovation Team (Jan 2025 - Present)
 Built the [official forum website](https://github.com/Sophie-l-l/china-gulf-forum); organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII.
