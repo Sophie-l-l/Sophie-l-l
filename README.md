@@ -1,6 +1,6 @@
 # Sophie Lin (Ao Lin)
 
-**BS Computer Science @ NYU Abu Dhabi** | Minor in Applied Math & Economics | GPA: 3.85
+**BS Computer Science @ NYU Abu Dhabi** | Double Minor in Engineering & Applied Mathematics | GPA: 3.85
 
 I build production systems that work — from multi-service cloud deployments to ML pipelines on HPC clusters. Currently focused on full-stack engineering, applied ML, and adaptive learning systems.
 
@@ -38,14 +38,16 @@ Best for: **Backend SWE, Platform Engineering, Infrastructure**
 
 ---
 
-### [FreshtiqChef](https://github.com/Sophie-l-l/FreshtiqChef) — Mobile Food Inspection App
-Tinder-style swipe UI with optimistic updates, real-time Socket.io notifications, and atomic batch claiming to prevent race conditions across inspectors.
+### [FreshtiqChef](https://github.com/Sophie-l-l/FreshtiqChef) — Mobile Food Quality Inspection App
+Cross-platform Flutter app for food quality inspectors with a Tinder-style swipe interface, real-time Socket.io notifications, and atomic batch claiming to prevent race conditions across inspectors.
 
-- Dio interceptor chain: JWT injection, 401 auto-recovery, request logging
-- 12,500+ lines of Dart across 69 files
+- Clean architecture with 15 API service classes, Riverpod state management, and Freezed immutable models
+- Dio interceptor chain: JWT injection, 401 auto-recovery with token refresh, structured request logging
+- Optimistic UI updates with automatic rollback, multi-step OTP auth, Excel export with date filtering
+- 12,500+ lines of Dart across 69 files, compiled release APK shipped
 
-Tech: Flutter/Dart, Riverpod, Dio, Socket.io, Freezed
-Best for: **Mobile Engineering, Consumer Apps**
+Tech: Flutter/Dart, Riverpod, Dio, Socket.io, GoRouter, Freezed, Material Design 3
+Best for: **Mobile Engineering, Consumer Apps, Startup**
 
 ---
 
@@ -127,4 +129,4 @@ Developed user-tailored event database systems and architecture.
 
 ---
 
-**New York University Abu Dhabi** — BS Computer Science | Minor: Applied Mathematics & Economics | GPA: 3.85 | May 2026
+**New York University Abu Dhabi** — BS Computer Science | Double Minor: Engineering & Applied Mathematics | GPA: 3.85 | May 2026
