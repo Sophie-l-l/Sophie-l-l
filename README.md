@@ -1,6 +1,6 @@
 # Sophie Lin (Ao Lin)
 
-**BS Computer Science @ NYU Abu Dhabi** | Double Minor in Engineering & Applied Mathematics | GPA: 3.85
+**BS Computer Science @ NYU Abu Dhabi** | Double Minor in Engineering & Applied Mathematics | GPA: 3.783
 
 I build production systems that work — from multi-service cloud deployments to ML pipelines on HPC clusters. Currently focused on full-stack engineering, applied ML, and adaptive learning systems.
 
@@ -80,7 +80,7 @@ Best for: **ML Engineering, Research**
 
 ## AI & Research
 
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product & Engineering Lead) | [mMEDCON](https://www.mmedcon.com)
+### [MyoMetricsMRI](https://www.mmedcon.com/en/copy-of-o-n%C3%A1s) — AI-Powered DMD Early Detection (Product & Engineering Lead) | [mMEDCON](https://www.mmedcon.com)
 Product & Engineering Lead for MyoMetricsMRI (M³), part of the mMEDCON nonprofit — an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Led the application and market research that got us into the **NYU 2025 Summer Startup Sprint** (1 of 17 teams selected).
 
 - Led market research, competitive analysis, and prepared the accelerator application
@@ -136,4 +136,4 @@ Developed user-tailored event database systems and architecture.
 
 ---
 
-**New York University Abu Dhabi** — BS Computer Science | Double Minor: Engineering & Applied Mathematics | GPA: 3.85 | May 2026
+**New York University Abu Dhabi** — BS Computer Science | Double Minor: Engineering & Applied Mathematics | GPA: 3.783 | May 2026
