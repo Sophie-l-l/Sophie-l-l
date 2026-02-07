@@ -5,7 +5,7 @@
 I build production systems that work — from multi-service cloud deployments to ML pipelines on HPC clusters. Currently focused on full-stack engineering, applied ML, and adaptive learning systems.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-sophie--l--l.github.io-00d4ff?style=flat-square)](https://sophie-l-l.github.io/)
-[![LinkedIn](https://www.linkedin.com/in/ao-lin-859725262/)](https://www.linkedin.com/in/ao-lin-859725262/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ao%20Lin-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ao-lin-859725262/)
 [![Email](https://img.shields.io/badge/Email-al7855%40nyu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:al7855@nyu.edu)
 
 ---
