@@ -28,7 +28,7 @@
 - Integrated GPU batching and .parquet stream evaluation  
 → *Notebook & Results*
 
-### 📖 [MyRecipe](hhttps://github.com/Sophie-l-l/AIT_MyRecipeTree/blob/main/README.md) — Full-Stack Recipe & Culture App  
+### 📖 [MyRecipe](https://github.com/Sophie-l-l/AIT_MyRecipeTree/blob/main/README.md) — Full-Stack Recipe & Culture App  
 **React (Vite) + Express + MongoDB | Passport.js Auth**  
 - Users can register/login, upload & edit recipes by region, and interact via likes/comments  
 - Features advanced navbar filtering, responsive design, and search by name/ingredient/location  
