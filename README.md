@@ -78,12 +78,17 @@ Best for: **ML Engineering, Research**
 
 ## AI & Research
 
-### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection
-Led product design for AI-powered MRI analysis targeting Duchenne Muscular Dystrophy. Conducted 34 expert interviews (NYU Radiology, Akron Children's Hospital). Deployed at [myometric.com](https://myometric.com).
+### [MyoMetricsMRI](https://github.com/Sophie-l-l/myomagic) — AI-Powered DMD Early Detection (Product Manager)
+Product Manager for an AI-powered MRI analysis platform targeting Duchenne Muscular Dystrophy early detection. Selected for the **NYU 2025 Summer Startup Sprint** ($1,500 grant + $25K cloud credits) through the NYU Entrepreneurial Institute.
 
-Best for: **Product, HealthTech, AI**
+- Led product design, user research, and go-to-market strategy
+- Conducted 34 expert interviews with physicians from NYU Radiology and Akron Children's Hospital
+- Platform uses transformer-based neural networks for 4-hour MRI analysis turnaround (vs. 7-14 days traditional)
 
-### InternNav — Vision-Language Navigation for Blind Users *(Ongoing)*
+Tech: React, TypeScript, Vite, Tailwind CSS
+Best for: **Product Management, HealthTech, AI, Startup**
+
+### Vision-Language Navigation for Blind Users — Research Assistant *(Ongoing)*
 Fine-tuning vision-language models (VGGT + Depth Anything V2 + Qwen2.5-VL) on 219 walking videos for urban blind navigation. NYU Abu Dhabi, HPC (A100/V100).
 
 Best for: **AI/ML Research, Computer Vision**
@@ -96,6 +101,9 @@ LangChain + GPT-4o-mini with BufferMemory for context-aware therapeutic dialogue
 ---
 
 ## Professional Experience
+
+**MyoMetricsMRI** — Product Manager (May 2025 - Present)
+PM for AI-powered MRI diagnostic startup via [NYU Summer Startup Sprint 2025](https://entrepreneur.nyu.edu/resource/startup-sprint-student/). Led user research (34 physician interviews), product design, and go-to-market planning for DMD early detection platform.
 
 **China-Gulf Forum** — Tech & Innovation Team (Jan 2025 - Present)
 Built the [official forum website](https://github.com/Sophie-l-l/china-gulf-forum); organized hybrid international conference (500+ attendees) with speakers from UNOOSA and TII.
